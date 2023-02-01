@@ -1,4 +1,13 @@
 {:paths ["src"]
  :deps  {}
  :aliases 
- {:neil {:project {:name hello-garden/hello-garden}}}}
+ {:nextjournal/clerk
+  {:extra-deps {io.github.nextjournal/clerk {:mvn/version "0.12.707"}}
+   :exec-fn nextjournal.clerk/build!
+   :exec-args {:paths ["notebooks/hello_garden.clj"]}
+   ;; TODO: add all notebooks you want to have built ☝️
+   ;; if you just want to build one notebook, set `:index`
+
+   ;; optional list of aliases to include in the build
+   :nextjournal.clerk/aliases [:dev]}
+  :neil {:project {:name hello-garden/hello-garden}}}}
