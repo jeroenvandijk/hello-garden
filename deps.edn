@@ -2,7 +2,7 @@
  :deps  {}
  :aliases 
  {:nextjournal/clerk
-  {:extra-deps {io.github.nextjournal/clerk {:mvn/version "0.12.707"}}
+  {:extra-deps {io.github.nextjournal/clerk {:git/sha "d387037aa45303c32e311b62580b6f85e0b72919" #_:mvn/version #_"0.12.707"}}
    :exec-fn nextjournal.clerk/build!
    :exec-args {:paths ["notebooks/hello_garden.clj"]}
    ;; TODO: add all notebooks you want to have built ☝️
