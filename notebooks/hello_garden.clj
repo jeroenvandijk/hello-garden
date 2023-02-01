@@ -9,7 +9,7 @@
 
 ;; ## DB
 
-;; Load hello db (from [Sakila db](https://github.com/jOOQ/sakila/tree/main/sqlite-sakila-db) and [schema here](https://www.jooq.org/sakila).
+;; Load hello db (from [Sakila db](https://github.com/jOOQ/sakila/tree/main/sqlite-sakila-db) and [schema here](https://www.jooq.org/sakila)).
 
 {:nextjournal.clerk/visibility {:result :hide}}
 
