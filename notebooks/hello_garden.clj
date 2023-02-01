@@ -9,7 +9,7 @@
 
 ;; ## DB
 
-;; Load hello db (from [Sakila db](https://www.jooq.org/sakila)).
+;; Load db from [Sakila](https://www.jooq.org/sakila).
 
 {:nextjournal.clerk/visibility {:result :hide}}
 
