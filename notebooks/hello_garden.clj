@@ -4,12 +4,12 @@
   (:require [next.jdbc :as jdbc]))
 
 #_(
-  ;; TODO add script to generate db
+  ;; TODO add script to generate db from SQL statements here https://github.com/jOOQ/sakila/tree/main/sqlite-sakila-db
    )
 
 ;; ## DB
 
-;; Load hello db (from [Sakila db](https://github.com/jOOQ/sakila/tree/main/sqlite-sakila-db) and [schema here](https://www.jooq.org/sakila)).
+;; Load hello db (from [Sakila db](https://www.jooq.org/sakila)).
 
 {:nextjournal.clerk/visibility {:result :hide}}
 
